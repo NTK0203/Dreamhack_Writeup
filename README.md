@@ -18,6 +18,8 @@ Tools: GDB (pwndbg), Checksec, IDA-free
 컴파일된 바이너리를 IDA를 통한 디컴파일링과 디버거를 통한 어셈블리 수준 정적 분석하고, 디버거로 동적인 레지스터와 메모리 흐름을 관찰하여 플래그를 획득하는 과정을 학습했습니다.
 주요 학습 내용: 어셈블리 코드 분석, 암호화 알고리즘 복호화, 안티 디버깅 우회 등
 
+- 그외의 [리버싱 입문, 조성문 저자]로 학습한 기록 및 드림핵 기록 블로그: https://neworld0203.tistory.com/category/%EB%B3%B4%EC%95%88%EA%B3%B5%EB%B6%80 
+
 # 📦 Repository Structure
 ```text
 ┣ 📂 pwn
