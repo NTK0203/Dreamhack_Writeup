@@ -9,6 +9,9 @@ https://dreamhack.io/wargame/challenges/9
 
 쉘을 실행하는 getshell 함수의 주소(0x80485db)를 64번 반복하여 입력했습니다. 이를 통해 취약점으로 인해 발생하는 메모리 침범 영역을 유효한 주소로 덮어써서 함수 호출 흐름을 조작하여 쉘이 실행되도록 구성했습니다.
 
+<img width="1668" height="2154" alt="image" src="https://github.com/user-attachments/assets/5c4b0d3b-544f-46a4-9fed-3ff6e0dbf995" />
+
+
 # off_by_one_001
 https://dreamhack.io/wargame/challenges/10
 
