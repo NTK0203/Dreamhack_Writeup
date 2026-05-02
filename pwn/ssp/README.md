@@ -8,6 +8,7 @@ https://dreamhack.io/wargame/challenges/32
 - Exploit
 
 스택 카나리 오염 시 호출되는 __stack_chk_fail 함수의 GOT 엔트리를 get_shell 함수의 주소로 변조했습니다. 이후 의도적으로 버퍼 오버플로우를 발생시켜 카나리 검증 실패를 유도함으로써, 프로그램 종료 대신 쉘이 실행되도록 페이로드를 작성했습니다.
+<img width="1668" height="2154" alt="image" src="https://github.com/user-attachments/assets/b91fd04b-a8d0-4573-aeed-76e733614246" />
 
 # ssp_001
 https://dreamhack.io/wargame/challenges/33
