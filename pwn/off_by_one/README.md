@@ -22,3 +22,5 @@ https://dreamhack.io/wargame/challenges/10
 - Exploit
 
 버퍼의 크기인 20바이트(0x14)를 가득 채워 입력했습니다. 이를 통해 인접한 변수의 첫 번째 바이트를 0으로 조작함으로써, 프로그램의 로직을 우회하여 의도된 코드가 실행되도록 페이로드를 작성했습니다.
+
+<img width="940" height="591" alt="image" src="https://github.com/user-attachments/assets/2a3843d7-d63d-4f15-8d79-d29a077fecb9" />
