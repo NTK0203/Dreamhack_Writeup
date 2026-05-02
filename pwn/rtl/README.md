@@ -1,8 +1,10 @@
 Return to Library
 https://dreamhack.io/wargame/challenges/353
 
-Vulnerability
+- Vulnerability
+
 입력 길이 제한이 없는 스택 버퍼 오버플로우 취약점을 이용하여 메모리 보호 기법인 스택 카나리를 유출하고 가젯으로 리턴 어드레스를 변조할 수 있습니다.
 
-Exploit
+- Exploit
+
 첫 번째 오버플로우를 발생시켜 스택 카나리 값을 유출했습니다. 이후 두 번째 오버플로우를 통해 유출한 카나리 값을 보존하면서 리턴 어드레스를 ROP 체인으로 덮어썼습니다. pop rdi 가젯을 이용해 rdi 레지스터에 "/bin/sh" 문자열의 주소를 인자로 전달하고 system 함수의 PLT를 호출하여 쉘을 획득했습니다. 64비트 환경에서의 스택 정렬 문제를 해결하기 위해 ret 가젯을 체인에 포함했습니다.
