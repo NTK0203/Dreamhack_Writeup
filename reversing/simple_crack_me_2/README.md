@@ -2,7 +2,7 @@ Simple Crack Me 2
 https://dreamhack.io/wargame/challenges/668
 
 - Vulnerability
-- 
+  
 사용자 입력값을 검증하기 위해 여러 단계의 단순 산술 및 논리 연산(XOR, 가산, 감산)을 수행하는 알고리즘을 사용합니다. 연산 과정이 단순하고 역산이 가능하며, 비교 대상인 결과값과 연산에 사용되는 키값들이 바이너리 내부에 고정된 상수로 존재하여 로직의 역산이 가능한 취약점이 존재합니다.
 
 - Exploit
