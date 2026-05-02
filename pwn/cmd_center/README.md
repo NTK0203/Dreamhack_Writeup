@@ -8,3 +8,4 @@ https://dreamhack.io/wargame/challenges/117
 - Exploit
 
 기존 명령어(ifconfig)가 저장되는 버퍼의 크기인 32바이트(0x20)를 쓰레기 값으로 채운 뒤, ; /bin/sh를 입력하여 시스템 명령어를 조작했습니다. 이를 통해 의도된 명령어 실행 이후 쉘이 실행되도록 페이로드를 작성했습니다.
+<img width="940" height="761" alt="image" src="https://github.com/user-attachments/assets/94154a94-4b35-46c1-97f8-612fc2565785" />
